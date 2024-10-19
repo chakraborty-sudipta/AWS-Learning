@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to My Website</title>
+    <style>
+        /* Basic CSS reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Container styling */
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Header styling */
+        h1 {
+            font-size: 2.5rem;
+            color: #007BFF;
+        }
+
+        /* Paragraph styling */
+        p {
+            font-size: 1.2rem;
+            margin: 15px 0;
+        }
+
+        /* Button styling */
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Footer */
+        footer {
+            position: absolute;
+            bottom: 20px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        /* Media Query for responsiveness */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .btn {
+                padding: 8px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to My Awesome Website!</h1>
+        <p>This is a simple static website hosted on Amazon S3.</p>
+        <p>Feel free to explore and learn how easy it is to deploy a static site!</p>
+        <a href="#" class="btn">Learn More</a>
+    </div>
+
+    <footer>
+        &copy; 2024 My Website. All rights reserved.
+    </footer>
+
+</body>
+</html>
